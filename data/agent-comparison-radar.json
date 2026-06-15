@@ -1,0 +1,113 @@
+{
+  "purpose": "Teaching-oriented relative emphasis scores for the README radar visualization. Scores are not product rankings.",
+  "scale": {
+    "min": 1,
+    "max": 5,
+    "meaning": {
+      "1": "minimal or baseline treatment",
+      "3": "clear but not dominant treatment",
+      "5": "major prompt design emphasis"
+    }
+  },
+  "dimensions": [
+    "planning",
+    "tool_protocol",
+    "safety_constraints",
+    "context_governance",
+    "self_evaluation",
+    "collaboration_tone"
+  ],
+  "agents": [
+    {
+      "id": "codex",
+      "name": "Codex CLI",
+      "scores": {
+        "planning": 4.5,
+        "tool_protocol": 4.5,
+        "safety_constraints": 4,
+        "context_governance": 4,
+        "self_evaluation": 4,
+        "collaboration_tone": 4.5
+      },
+      "rationale": "Strong engineering workflow, editing constraints, final answer requirements, frontend guidance, and collaboration rules."
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code",
+      "scores": {
+        "planning": 4,
+        "tool_protocol": 4,
+        "safety_constraints": 4.5,
+        "context_governance": 4.5,
+        "self_evaluation": 3.5,
+        "collaboration_tone": 5
+      },
+      "rationale": "Strong harness semantics, permission behavior, file-based memory, task/workflow orchestration, and user-facing conventions."
+    },
+    {
+      "id": "openclaw",
+      "name": "OpenClaw",
+      "scores": {
+        "planning": 3.5,
+        "tool_protocol": 4.5,
+        "safety_constraints": 4,
+        "context_governance": 4.5,
+        "self_evaluation": 3,
+        "collaboration_tone": 4
+      },
+      "rationale": "Broad personal-agent operating system with tools, long-term memory, sessions, heartbeat, messaging, and explicit safety boundaries."
+    },
+    {
+      "id": "opencode",
+      "name": "opencode",
+      "scores": {
+        "planning": 4,
+        "tool_protocol": 3.5,
+        "safety_constraints": 3.5,
+        "context_governance": 4,
+        "self_evaluation": 4,
+        "collaboration_tone": 3.5
+      },
+      "rationale": "Very strong autonomy and workflow enforcement with heavy research and testing emphasis; useful as both pattern and cautionary sample."
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi CLI",
+      "scores": {
+        "planning": 3.5,
+        "tool_protocol": 4,
+        "safety_constraints": 3,
+        "context_governance": 3.5,
+        "self_evaluation": 2.5,
+        "collaboration_tone": 4.5
+      },
+      "rationale": "Clear plan mode, task tooling, project guidance, and tool usage rules."
+    },
+    {
+      "id": "hermes",
+      "name": "Hermes Agent",
+      "scores": {
+        "planning": 3,
+        "tool_protocol": 4.5,
+        "safety_constraints": 3.5,
+        "context_governance": 3.5,
+        "self_evaluation": 3.5,
+        "collaboration_tone": 4
+      },
+      "rationale": "Rich tool catalog, browser controls, delegation, memory, session search, and patch-oriented execution."
+    },
+    {
+      "id": "pi",
+      "name": "Pi",
+      "scores": {
+        "planning": 2,
+        "tool_protocol": 2,
+        "safety_constraints": 2,
+        "context_governance": 2,
+        "self_evaluation": 2,
+        "collaboration_tone": 2
+      },
+      "rationale": "Minimal coding agent harness; useful baseline for teaching prompt evolution."
+    }
+  ]
+}

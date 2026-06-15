@@ -1,0 +1,80 @@
+{
+  "source": {
+    "name": "Phistory",
+    "url": "https://phistory.cc/",
+    "description": "Agent CLI system prompt snapshot and diff history."
+  },
+  "captured_at": "2026-06-14",
+  "agents": [
+    {
+      "id": "claude-code",
+      "name": "Claude Code",
+      "version": "2.1.177",
+      "published": "2026-06-13",
+      "line_count": 1995,
+      "prompt_url": "https://phistory.cc/captures/claude-code/2.1.177/prompt.md",
+      "trace_url": "https://phistory.cc/captures/claude-code/2.1.177/trace.jsonl",
+      "learning_focus": ["harness", "memory", "tooling", "context management", "multi-agent workflow"]
+    },
+    {
+      "id": "codex",
+      "name": "Codex CLI",
+      "version": "0.139.0",
+      "published": "2026-06-09",
+      "line_count": 652,
+      "prompt_url": "https://phistory.cc/captures/codex/0.139.0/prompt.md",
+      "trace_url": "https://phistory.cc/captures/codex/0.139.0/trace.jsonl",
+      "learning_focus": ["engineering judgment", "collaboration", "frontend guidance", "editing constraints", "final answers"]
+    },
+    {
+      "id": "hermes",
+      "name": "Hermes Agent",
+      "version": "v2026.6.5",
+      "published": "2026-06-06",
+      "line_count": 1235,
+      "prompt_url": "https://phistory.cc/captures/hermes/v2026.6.5/prompt.md",
+      "trace_url": "https://phistory.cc/captures/hermes/v2026.6.5/trace.jsonl",
+      "learning_focus": ["tool catalog", "browser tools", "delegation", "memory", "skill management"]
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi CLI",
+      "version": "1.47.0",
+      "published": "2026-06-05",
+      "line_count": 1089,
+      "prompt_url": "https://phistory.cc/captures/kimi/1.47.0/prompt.md",
+      "trace_url": "https://phistory.cc/captures/kimi/1.47.0/trace.jsonl",
+      "learning_focus": ["prompt and tool use", "coding guidelines", "plan mode", "task management"]
+    },
+    {
+      "id": "openclaw",
+      "name": "OpenClaw",
+      "version": "2026.6.6",
+      "published": "2026-06-12",
+      "line_count": 3980,
+      "prompt_url": "https://phistory.cc/captures/openclaw/2026.6.6/prompt.md",
+      "trace_url": "https://phistory.cc/captures/openclaw/2026.6.6/trace.jsonl",
+      "learning_focus": ["tooling", "safety", "skills", "memory", "proactive behavior", "multi-session orchestration"]
+    },
+    {
+      "id": "opencode",
+      "name": "opencode",
+      "version": "1.17.6",
+      "published": "2026-06-13",
+      "line_count": 669,
+      "prompt_url": "https://phistory.cc/captures/opencode/1.17.6/prompt.md",
+      "trace_url": "https://phistory.cc/captures/opencode/1.17.6/trace.jsonl",
+      "learning_focus": ["autonomy", "workflow", "internet research", "testing", "communication"]
+    },
+    {
+      "id": "pi",
+      "name": "Pi",
+      "version": "0.79.3",
+      "published": "2026-06-13",
+      "line_count": 156,
+      "prompt_url": "https://phistory.cc/captures/pi/0.79.3/prompt.md",
+      "trace_url": "https://phistory.cc/captures/pi/0.79.3/trace.jsonl",
+      "learning_focus": ["minimal harness", "basic coding agent tools", "documentation pointers"]
+    }
+  ]
+}
